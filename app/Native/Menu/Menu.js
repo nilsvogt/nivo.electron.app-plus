@@ -1,5 +1,6 @@
 class NativeMenu {
-    constructor() {
+    constructor(app) {
+        this.app  = app;
         this.Menu = require('electron').Menu;
 
         this.mainMenuTemplate = [

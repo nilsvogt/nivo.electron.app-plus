@@ -10,7 +10,7 @@ const {
 } = electron;
 
 function appFactory() {
-    const menu = new NativeMenu();
+    const menu = new NativeMenu(app);
 
     return new App(app, BrowserWindow, path, menu, config);
 }

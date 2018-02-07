@@ -57,7 +57,9 @@ class App {
             this.mainWindow = null
         });
 
-        this.mainWindow.webContents.openDevTools();
+        if (this.config.openDevTools) {
+            this.mainWindow.webContents.openDevTools();
+        }
 
         this.menu.build();
     }

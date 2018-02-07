@@ -3,7 +3,8 @@
  */
 
 const config = {
-    'url': 'https://nilsvogt.com'
+    'url': 'http://nilsvogt.com',
+    'openDevTools': false
 };
 
 module.exports = config;
