@@ -1,0 +1,16 @@
+{
+  "name": "AppPlus",
+  "version": "0.1.0",
+  "description": "A customizable container for web applications",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [],
+  "author": "Nils Vogt <nils.vogt@check24.de>",
+  "license": "",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  }
+}
