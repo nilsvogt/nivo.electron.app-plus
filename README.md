@@ -1,4 +1,4 @@
-#AppPlus
+# AppPlus
 
 AppPlus let u easily customize any web application you use on a daily basis. It provides a simple yet powerful plugin system that you can utilize to modify web apps until they really fit your personal needs the most.
 
@@ -19,7 +19,7 @@ module.exports = main;
 As your plugin scales you should use the main function as your entrypoint and move the implementation into smaller pieces your plugin then consumes.
 ## installation
 
-`npm install && npm`
+`npm install`
 
 ## start
 
